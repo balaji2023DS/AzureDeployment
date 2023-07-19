@@ -2,7 +2,6 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template, url_for
 import pickle
 
-
 app = Flask(__name__)
 model = pickle.load(open('randomForestRegressor.pkl','rb'))
 
