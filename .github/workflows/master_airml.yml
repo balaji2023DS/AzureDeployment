@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'AirML'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_816A156436D741F29053C0D097BB564D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B6903F9C29C7434DB8B9CE0D89023F6C }}
